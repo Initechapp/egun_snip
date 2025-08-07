@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>eGun Sniper</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="login-section">
+    <input id="login" placeholder="Login">
+    <input id="password" type="password" placeholder="Hasło">
+    <button id="loginBtn">Zaloguj</button>
+    <button id="logoutBtn">Wyloguj</button>
+  </div>
+  <div id="controls">
+    <button id="addCurrent">Dodaj do snajpera (aktualna strona)</button>
+  </div>
+  <div id="auctions-section">
+    <h3>Moje aukcje</h3>
+    <ul id="auctionList"></ul>
+  </div>
+<script src="utils.js"></script>
+<script src="storage.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>

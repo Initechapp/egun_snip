@@ -1,0 +1,6 @@
+body { width:300px; font-family: Arial, sans-serif; padding:10px; }
+input, button { width:100%; margin-top:5px; padding:5px; box-sizing:border-box; }
+button { cursor:pointer; }
+ul { list-style:none; padding:0; }
+li { background:#f0f0f0; margin:5px 0; padding:5px; display:flex; justify-content:space-between; align-items:center; }
+li button { width:auto; }
